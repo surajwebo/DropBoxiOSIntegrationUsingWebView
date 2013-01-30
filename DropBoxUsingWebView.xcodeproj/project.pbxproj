@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB56B5416B92B7A00081A9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB56B5316B92B7A00081A9E /* UIKit.framework */; };
+		FBB56B5616B92B7A00081A9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB56B5516B92B7A00081A9E /* Foundation.framework */; };
+		FBB56B5816B92B7A00081A9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB56B5716B92B7A00081A9E /* CoreGraphics.framework */; };
+		FBB56B5E16B92B7A00081A9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBB56B5C16B92B7A00081A9E /* InfoPlist.strings */; };
+		FBB56B6016B92B7A00081A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB56B5F16B92B7A00081A9E /* main.m */; };
+		FBB56B6416B92B7A00081A9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB56B6316B92B7A00081A9E /* AppDelegate.m */; };
+		FBB56B6616B92B7B00081A9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB56B6516B92B7B00081A9E /* Default.png */; };
+		FBB56B6816B92B7B00081A9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB56B6716B92B7B00081A9E /* Default@2x.png */; };
+		FBB56B6A16B92B7B00081A9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB56B6916B92B7B00081A9E /* Default-568h@2x.png */; };
+		FBB56B6D16B92B7B00081A9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB56B6C16B92B7B00081A9E /* ViewController.m */; };
+		FBB56B7016B92B7B00081A9E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB56B6E16B92B7B00081A9E /* ViewController.xib */; };
+		FBB56B7716B930B600081A9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB56B7616B930B600081A9E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBB56B4F16B92B7A00081A9E /* DropBoxUsingWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBoxUsingWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB56B5316B92B7A00081A9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBB56B5516B92B7A00081A9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBB56B5716B92B7A00081A9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBB56B5B16B92B7A00081A9E /* DropBoxUsingWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropBoxUsingWebView-Info.plist"; sourceTree = "<group>"; };
+		FBB56B5D16B92B7A00081A9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBB56B5F16B92B7A00081A9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBB56B6116B92B7A00081A9E /* DropBoxUsingWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropBoxUsingWebView-Prefix.pch"; sourceTree = "<group>"; };
+		FBB56B6216B92B7A00081A9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBB56B6316B92B7A00081A9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBB56B6516B92B7B00081A9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBB56B6716B92B7B00081A9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBB56B6916B92B7B00081A9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBB56B6B16B92B7B00081A9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBB56B6C16B92B7B00081A9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBB56B6F16B92B7B00081A9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FBB56B7616B930B600081A9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB56B4C16B92B7A00081A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB56B7716B930B600081A9E /* QuartzCore.framework in Frameworks */,
+				FBB56B5416B92B7A00081A9E /* UIKit.framework in Frameworks */,
+				FBB56B5616B92B7A00081A9E /* Foundation.framework in Frameworks */,
+				FBB56B5816B92B7A00081A9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB56B4416B92B7A00081A9E = {
+			isa = PBXGroup;
+			children = (
+				FBB56B7616B930B600081A9E /* QuartzCore.framework */,
+				FBB56B5916B92B7A00081A9E /* DropBoxUsingWebView */,
+				FBB56B5216B92B7A00081A9E /* Frameworks */,
+				FBB56B5016B92B7A00081A9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB56B5016B92B7A00081A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB56B4F16B92B7A00081A9E /* DropBoxUsingWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB56B5216B92B7A00081A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB56B5316B92B7A00081A9E /* UIKit.framework */,
+				FBB56B5516B92B7A00081A9E /* Foundation.framework */,
+				FBB56B5716B92B7A00081A9E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB56B5916B92B7A00081A9E /* DropBoxUsingWebView */ = {
+			isa = PBXGroup;
+			children = (
+				FBB56B6216B92B7A00081A9E /* AppDelegate.h */,
+				FBB56B6316B92B7A00081A9E /* AppDelegate.m */,
+				FBB56B6B16B92B7B00081A9E /* ViewController.h */,
+				FBB56B6C16B92B7B00081A9E /* ViewController.m */,
+				FBB56B6E16B92B7B00081A9E /* ViewController.xib */,
+				FBB56B5A16B92B7A00081A9E /* Supporting Files */,
+			);
+			path = DropBoxUsingWebView;
+			sourceTree = "<group>";
+		};
+		FBB56B5A16B92B7A00081A9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB56B5B16B92B7A00081A9E /* DropBoxUsingWebView-Info.plist */,
+				FBB56B5C16B92B7A00081A9E /* InfoPlist.strings */,
+				FBB56B5F16B92B7A00081A9E /* main.m */,
+				FBB56B6116B92B7A00081A9E /* DropBoxUsingWebView-Prefix.pch */,
+				FBB56B6516B92B7B00081A9E /* Default.png */,
+				FBB56B6716B92B7B00081A9E /* Default@2x.png */,
+				FBB56B6916B92B7B00081A9E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB56B4E16B92B7A00081A9E /* DropBoxUsingWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB56B7316B92B7B00081A9E /* Build configuration list for PBXNativeTarget "DropBoxUsingWebView" */;
+			buildPhases = (
+				FBB56B4B16B92B7A00081A9E /* Sources */,
+				FBB56B4C16B92B7A00081A9E /* Frameworks */,
+				FBB56B4D16B92B7A00081A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropBoxUsingWebView;
+			productName = DropBoxUsingWebView;
+			productReference = FBB56B4F16B92B7A00081A9E /* DropBoxUsingWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB56B4616B92B7A00081A9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = suraj;
+			};
+			buildConfigurationList = FBB56B4916B92B7A00081A9E /* Build configuration list for PBXProject "DropBoxUsingWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBB56B4416B92B7A00081A9E;
+			productRefGroup = FBB56B5016B92B7A00081A9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB56B4E16B92B7A00081A9E /* DropBoxUsingWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB56B4D16B92B7A00081A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB56B5E16B92B7A00081A9E /* InfoPlist.strings in Resources */,
+				FBB56B6616B92B7B00081A9E /* Default.png in Resources */,
+				FBB56B6816B92B7B00081A9E /* Default@2x.png in Resources */,
+				FBB56B6A16B92B7B00081A9E /* Default-568h@2x.png in Resources */,
+				FBB56B7016B92B7B00081A9E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB56B4B16B92B7A00081A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB56B6016B92B7A00081A9E /* main.m in Sources */,
+				FBB56B6416B92B7A00081A9E /* AppDelegate.m in Sources */,
+				FBB56B6D16B92B7B00081A9E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBB56B5C16B92B7A00081A9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB56B5D16B92B7A00081A9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBB56B6E16B92B7B00081A9E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB56B6F16B92B7B00081A9E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB56B7116B92B7B00081A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBB56B7216B92B7B00081A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB56B7416B92B7B00081A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropBoxUsingWebView/DropBoxUsingWebView-Prefix.pch";
+				INFOPLIST_FILE = "DropBoxUsingWebView/DropBoxUsingWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBB56B7516B92B7B00081A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropBoxUsingWebView/DropBoxUsingWebView-Prefix.pch";
+				INFOPLIST_FILE = "DropBoxUsingWebView/DropBoxUsingWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB56B4916B92B7A00081A9E /* Build configuration list for PBXProject "DropBoxUsingWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB56B7116B92B7B00081A9E /* Debug */,
+				FBB56B7216B92B7B00081A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB56B7316B92B7B00081A9E /* Build configuration list for PBXNativeTarget "DropBoxUsingWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB56B7416B92B7B00081A9E /* Debug */,
+				FBB56B7516B92B7B00081A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB56B4616B92B7A00081A9E /* Project object */;
+}
